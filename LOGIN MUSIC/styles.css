@@ -1,0 +1,31 @@
+.form-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Letras */
+h1 {
+    font-size: 24px;
+    text-align: center; 
+}
+/* Fondo */
+body {
+    background-image: linear-gradient(0deg, rgba(43, 2, 2, 0.3), rgba(11, 4, 43, 0.3)), url('fondo.jpg'); /* Aqui va la imagen del fondo */
+    background-position: center center; /* Centrar imagen en ambos ejes */
+    background-repeat: no-repeat; /* esto hace que no se repita la imagen */
+    background-size: cover; /* esto ajusta la imagen al tamaño de la pantalla */
+    
+  }
+/* Contenedor de login & registro */
+.container {
+    background-color: rgba(76, 89, 120, 0.901);
+    width: 300px;
+    height: 445px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+    border-radius: 20px;
+    color: rgb(225, 216, 246);
+}
+
+  
